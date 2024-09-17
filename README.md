@@ -1,32 +1,35 @@
-# SQL for Data Analysis
-This is the repository for the LinkedIn Learning course SQL for Data Analysis. The full course is available from [LinkedIn Learning][lil-course-url].
-
+# SQL Data Analysis Practice
 ![SQL for Data Analysis][lil-thumbnail-url] 
 
-If you’re looking to get Structured Query Language into your application development, but your story is more prequel than SQL, you need to build a solid foundational knowledge of SQL analysis. In this course, instructor Nikiya Simpson starts with a quick review of SQL basics, then focuses on fundamental SQL queries used in beginning data analysis. Nikiya explains the importance of asking the right questions of your data, as well as how those questions translate into SQL. She also shows how these concepts can be used to derive quick insights from your data to help drive effective decision-making. Nikiya finishes the course by demonstrating how to incorporate queries into tools like Microsoft Power BI to help bring your data to life.
+## Overview
+This repository contains practice exercises and solutions for SQL data analysis, based on a course I completed on LinkedIn Learning. The course covered various SQL concepts, including handling missing values, working with dates, common SQL functions, and data visualization.
 
-This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time—all while using a tool that you’ll likely encounter in the workplace. Check out both Codespaces videos to learn how to get started.
+## Source
+This is a forked repository, originally provided as part of the LinkedIn Learning course on SQL data analysis. The full course is available from [LinkedIn Learning][lil-course-url]. The original repository contained datasets and exercise files, which have been used here for practice and further learning.
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has folders for each of the videos in the course. Each folder corresponds to a chapter and the sample file mentioned in the videos. 
-
-
-## Installing
-To use these exercise files, you must have the following installed:
-1. In Chapter 5, install suggested extensions for Python and Jupyter when prompted. In Select Kernel (Type to Choose Kernel Source), Choose Python Environments -> Python 3.11.4 (Recommended).
-2. PDF Viewer for viewing ERD.
-3. Install the HTML Preview or Open in Default Browser extensions in VS Code to open html files to view.
-4. Before starting this exercise, Create V_Orders View for Chapter 5 Dashboard by running the "Create View V_Orders.sql" file.
+## Course Highlights
+- **Data Cleaning:** Techniques to identify and handle missing or inaccurate values.
+- **Date Functions:** Working with dates for data analysis, including filtering and formatting.
+- **Common SQL Functions:** Usage of aggregate functions, string functions, and conditional logic in SQL.
+- **Data Visualization:** Basic data visualization techniques using SQL queries.
 
 
-## Tips
-1. For Chapter 5, restart the kernel to stop the dashboard from running on port 8050.
+## How to Use
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/yourusername/sql-data-analysis-practice.git
+    ```
+2. **Navigate to the Project Directory**
+    ```bash
+    cd sql-data-analysis-practice
+    ```
+3. **Open the SQL Files**
+   - Use any SQL-compatible database system (e.g., MySQL, MSSQL, PostgreSQL) to run the scripts.
+   - Load the datasets from the `datasets` folder and execute the SQL scripts from the `exercises` or `solutions` folder.
 
-## Instructor
-Nikiya Simpson
+## License
+This repository is for educational purposes and follows the licensing terms of the original forked repository. Please refer to the `LICENSE` file for more details.
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nikiya-simpson).
-
-[lil-course-url]: https://www.linkedin.com/learning/sql-for-data-analysis-22645200?dApp=59033956&leis=LAA
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHW625ALPsQSQ/learning-public-crop_288_512/0/1689272470053?e=2147483647&v=beta&t=m-nlhw9I-NHTiW837dreat8J-H8Hhzrqv_bDBN3edVs
+## Acknowledgments
+- LinkedIn Learning for providing the SQL Data Analysis course and the original repository.
+- The course instructor for guiding through the various aspects of SQL data analysis.
